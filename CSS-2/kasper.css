@@ -179,7 +179,7 @@ header {
     z-index: 2;
 }
 
-@media (min-width: 290px) and(max-width: 374px) {
+@media (min-width: 290px) and (max-width: 374px) {
     header {
         margin-left: 10px;
     }
