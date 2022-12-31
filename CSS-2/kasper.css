@@ -179,6 +179,12 @@ header {
     z-index: 2;
 }
 
+@media (min-width: 290px) and(max-width: 374px) {
+    header {
+        margin-left: 10px;
+    }
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -1397,7 +1403,7 @@ span.circle.two {
 
 @media (min-width: 290px) and (max-width: 374px) {
     .skills .testimonials-f span {
-        top: 2%;
+        top: 18px;
         left: 40%;
     }
 }
@@ -1732,7 +1738,7 @@ span.circle.two {
     background-color: #fcfcfc;
 }
 
-@media (min-width: 375px) and (max-width: 649px) {
+@media (min-width: 290px) and (max-width: 649px) {
     .pric .pric-content {
         flex-basis: calc(100% - 40px);
         margin-bottom: 30px;
